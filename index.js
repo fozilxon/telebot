@@ -11,7 +11,7 @@ bot.use(Telegraf.log());
 
 bot.command("start", (ctx) => {
   return ctx.replyWithHTML(
-    "Assalomu alaykum, <b>" + ctx.message.from.first_name + "</b>",
+    "Assalomu alaykum qadrdon, <b>" + ctx.message.from.first_name + "</b>",
     Extra.markup(
       Markup.inlineKeyboard([
         Markup.callbackButton("Valeykum assalom", "fozil"),
