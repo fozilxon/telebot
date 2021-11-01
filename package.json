@@ -1,0 +1,24 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "BU bot fast food uchun",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon inxex.js"
+  },
+  "keywords": [
+    "bot",
+    "telegrambot",
+    "fozilbot"
+  ],
+  "author": "Fozil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
